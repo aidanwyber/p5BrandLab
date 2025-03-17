@@ -19,9 +19,11 @@ Ensure you have a web server running, as some browser security policies restrict
 
 ### Steps
 Clone this repository:
+
 `git clone https://github.com/your-repo/generator-project.git`
 
 Navigate to the project folder:
+
 `cd generator-project`
 
 Start a local server and open `index.html` in a browser.
@@ -32,14 +34,14 @@ Start a local server and open `index.html` in a browser.
 3. Export images as PNG/SVG or capture video output.
 
 ## File Structure
-`index.html` - Entry point of the project.
-`style.css` - Styles for the interface.
-`generator.js` - Core logic for procedural generation.
-`create-gui.js` - Manages GUI components and interactions.
-`sketch.js` - p5.js setup and main drawing loop.
-`ffmpeg.js` - Handles video export functionalities.
-`util.js`, `util-maths.js` - Utility functions for calculations and transformations.
-`lang.js` - Handles multi-language support.
+- `index.html` - Entry point of the project.
+- `style.css` - Styles for the interface.
+- `generator.js` - Core logic for procedural generation.
+- `create-gui.js` - Manages GUI components and interactions.
+- `sketch.js` - p5.js setup and main drawing loop.
+- `ffmpeg.js` - Handles video export functionalities.
+- `util.js`, `util-maths.js` - Utility functions for calculations and transformations.
+- `lang.js` - Handles multi-language support.
 
 ## Customization
 - Modify generator.js to define new visual styles or effects.
