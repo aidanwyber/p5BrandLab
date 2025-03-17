@@ -1,6 +1,6 @@
 # p5Generator
  
-p5Generator is a dynamic and customizable visual generator built using p5.js, toxiclibs.js, and ffmpeg.js. This tool allows users to create and manipulate graphics, images, and animations interactively via a user-friendly GUI.
+p5Generator is a dynamic and customizable visual generator built using `p5.js`, `toxiclibs.js`, and `ffmpeg.wasm`. This tool allows users to create and manipulate graphics, images, and animations interactively via a user-friendly GUI.
 
 ## Features
 
@@ -15,6 +15,7 @@ p5Generator is a dynamic and customizable visual generator built using p5.js, to
 
 ### Prerequisites
 Ensure you have a web server running, as some browser security policies restrict loading local files (like images and fonts). You can use Python’s simple server:
+
 `python3 -m http.server`
 
 ### Steps
@@ -49,7 +50,7 @@ Start a local server and open `index.html` in a browser.
 - Update style.css for UI customization.
 
 ## Credits
-Developed using p5.js, toxiclibs.js, and ffmpeg.js. Inspired by procedural graphics and interactive design.
+Developed using [p5.js](https://p5js.org/), toxiclibs.js, and ffmpeg.js.
 
 ## License
 MIT License - Feel free to use and modify this project as needed.
