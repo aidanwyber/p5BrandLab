@@ -9,3 +9,5 @@ function greet() {
 
 // Call the greet function
 greet();
+
+alert('asad')
