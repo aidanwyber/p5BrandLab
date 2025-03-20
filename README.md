@@ -1,4 +1,4 @@
-[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/)
+[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](../blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
 # 🚀 What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
