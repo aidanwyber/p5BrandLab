@@ -1,9 +1,9 @@
-[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](./blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
+[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
-# 🚀 What is p5BrandLab?
-**p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
+# 🚀 What is p5<span style="color:#7685F7">BrandLab</span>?
+**p5<span style="color:#7685F7">BrandLab</span>** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
 
-With p5BrandLab, you can:
+With p5<span style="color:#7685F7">BrandLab</span>, you can:
 - 🎨 Generate brand-consistent visual content programmatically.
 - 🏗️ Experiment with **parametric and algorithmic design**.
 - 🔄 Automate content generation while maintaining brand identity.
@@ -26,16 +26,16 @@ This project is built for **creative coders, developers, and designers** who wan
 # 📖 Why Open-Source?
 At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
 
-**p5BrandLab is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
+**p5<span style="color:#7685F7">BrandLab</span> is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
 
 
 # 📥 Installation & Setup
-To run p5BrandLab locally, follow these steps:
+To run p5<span style="color:#7685F7">BrandLab</span> locally, follow these steps:
 
 ## 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/multitude/p5BrandLab.git
-cd p5BrandLab
+git clone https://github.com/multitude/p5<span style="color:#7685F7">BrandLab</span>.git
+cd p5<span style="color:#7685F7">BrandLab</span>
 ```
 
 ## 2️⃣ Start a local development server
@@ -51,16 +51,16 @@ The app will be available at `http://localhost:8000`.
 [More on running a web server.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
 
 ## 3️⃣ Set the generator title in `sketch.js`
-```js
+```javascript
 const sketchName = '[Brand Name]';
 ```
 ## 4️⃣ Create or port your generative sketch in `generator.js`
-```js
+```javascript
 class Generator {
 	...
 ```
 ## 5️⃣ Create the GUI elements in `create-gui.js`
-```js
+```javascript
 ...
 gui.addController(new ColourBoxes(
 	gui, 'colourBoxesBirdCol', 'Bird flock colour', generator.birdPalette, 0,
@@ -103,8 +103,8 @@ Follow the development and join the discussion:
 - Instagram: [@multitudecreativeagency](https://www.instagram.com/multitudecreativeagency/)
 - Twitter/X: [@MultitudeStudio](https://twitter.com/MultitudeStudio)
 - [Creative Coding Amsterdam Meetup](https://www.meetup.com/nl-NL/creative-coding-amsterdam/)
-- GitHub Discussions: [Join the conversation](https://github.com/multitude/p5BrandLab/discussions)
+- GitHub Discussions: [Join the conversation](https://github.com/multitude/p5<span style="color:#7685F7">BrandLab</span>/discussions)
 
 ---
 
-💡 **p5BrandLab: Shaping the future of branded creativity—one line of code at a time.**
+💡 **p5<span style="color:#7685F7">BrandLab</span>: Shaping the future of branded creativity—one line of code at a time.**
