@@ -1,7 +1,8 @@
-# p5BrandLab
+![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/pandakaas/p5Generator/blob/main/header.svg?raw=true)
 
-> **Generative branding, open to all.**  
-> *An open-source project by [Multitude](https://multitude.nl/).*
+*An open-source project by [Multitude](https://multitude.nl/).*
+
+---
 
 ## 🚀 What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
@@ -19,7 +20,7 @@ This project is built for **creative coders, developers, and designers** who wan
 ## ✨ Features
 ✅ **Generative templates** – Define branded elements that evolve dynamically.  
 ✅ **Flexible customization** – Adjust colors, typography, motion, and shapes in real-time.  
-✅ **Modular & expandable** – Build your own brand elements as code modules.  
+✅ **Modular & expandable** – Build your own brand elements as code modules.
 ✅ **PNG & SVG exporting** - Save your generated artwork in high-quality formats.
 ✅ **Video rendering** – Uses **ffmpeg.wasm** for high-quality video exports.
 ✅ **Works in the browser** – No installation needed, fully web-based.
@@ -28,7 +29,7 @@ This project is built for **creative coders, developers, and designers** who wan
 
 ---
 
-## 🔥 Why Open-Source?
+## 📖 Why Open-Source?
 At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
 
 **p5BrandLab is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
