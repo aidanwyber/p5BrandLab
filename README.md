@@ -1,9 +1,9 @@
 [![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator) 
 
 
-# 🚀 What is p5BrandLab?
+# 🧪 What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
 
 With p5BrandLab, you can:
@@ -16,14 +16,14 @@ This project is built for **creative coders, developers, and designers** who wan
 
 
 # ✨ Features
-✅ **Generative templates** – Define branded elements that evolve dynamically.  
-✅ **Flexible customization** – Adjust colors, typography, motion, and shapes in real-time.  
-✅ **Modular & expandable** – Build your own brand elements as code modules.  
-✅ **PNG & SVG exporting** - Save your generated artwork in high-quality formats.  
-✅ **Video rendering** – Uses **ffmpeg.wasm** for high-quality video exports.  
-✅ **Works in the browser** – No installation needed, fully web-based.  
-✅ **Dark mode support** - Defaults to system theme.  
-✅ **Multi-language support** - Add your own translations.
+- **Generative templates**: Define branded elements that evolve dynamically.  
+- **Flexible customization**: Adjust colors, typography, motion, and shapes in real-time.  
+- **Modular & expandable**: Build your own brand elements as code modules.  
+- **PNG & SVG exporting**: Save your generated artwork in high-quality formats.  
+- **Video rendering**: Uses `ffmpeg.wasm` for high-quality video exports.  
+- **Works in the browser**: No installation needed, fully web-based.  
+- **Dark mode support**: Defaults to system theme.  
+- **Multi-language support**: Add your own translations.
 
 
 # 📖 Why Open-Source?
