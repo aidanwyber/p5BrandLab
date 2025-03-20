@@ -1,6 +1,6 @@
 [![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=aidanwyber.p5Generator&left_color=#bffb50&right_color=#7685f7) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=aidanwyber.p5Generator&left_color=#bffb50&right_color=#7685f7) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator&left_color=#bffb50&right_color=#7685f7) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator&left_color=#bffb50&right_color=#7685f7)
 
 
 # 🚀 What is p5BrandLab?
