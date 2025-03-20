@@ -3,10 +3,8 @@
 <!-- ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5BrandLab) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5BrandLab)  -->
 
 
-# 🧪 What is p5BrandLab?
-**p5BrandLab** is an **open-source generative branding tool** that allows **designers, developers, and brands** to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
-
-This project is built for **creative coders, developers, and designers** who want to push the boundaries of professional branding through code.
+# ➡️ What is p5BrandLab?
+**p5BrandLab** is an **open-source generative branding tool** that allows **designers, creative coders and developers** to create **dynamic visual identities** in a [p5.js](https://p5js.org/)-based environment.
 
 With **p5BrandLab**, you can generate **professional brand-consistent visual content** by providing **high-quality assets** for web, print, or motion graphics.
 
@@ -38,6 +36,7 @@ To run p5BrandLab locally, follow these steps:
 git clone https://github.com/aidanwyber/p5BrandLab.git
 cd p5BrandLab
 ```
+or alternatively, download the code as a ZIP file by clicking the "<> Code" button at the top-right of this page.
 
 ## 2️⃣  Start a local development server
 If you have Python installed:
@@ -91,7 +90,7 @@ For larger changes, please open an **Issue** to discuss ideas first.
 
 
 # ❤️‍🔥 Credits
-Developed initially using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm).
+Developed initially using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.wasm](https://github.com/ffmpegwasm/ffmpeg.wasm).
 
 
 # 📄 License
