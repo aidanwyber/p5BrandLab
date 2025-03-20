@@ -2,7 +2,6 @@
 
 <!-- ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5BrandLab) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5BrandLab)  -->
 
-
 # ➡️ What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows **designers, creative coders and developers** to create **dynamic visual identities** in a [p5.js](https://p5js.org/)-based environment.
 
