@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 What is p5BrandLab?
+# 🚀 What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
 
 With p5BrandLab, you can:
@@ -17,7 +17,7 @@ This project is built for **creative coders, developers, and designers** who wan
 
 ---
 
-## ✨ Features
+# ✨ Features
 ✅ **Generative templates** – Define branded elements that evolve dynamically.  
 ✅ **Flexible customization** – Adjust colors, typography, motion, and shapes in real-time.  
 ✅ **Modular & expandable** – Build your own brand elements as code modules.
@@ -29,23 +29,23 @@ This project is built for **creative coders, developers, and designers** who wan
 
 ---
 
-## 📖 Why Open-Source?
+# 📖 Why Open-Source?
 At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
 
 **p5BrandLab is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
 
 ---
 
-## 📥 Installation & Setup
+# 📥 Installation & Setup
 To run p5BrandLab locally, follow these steps:
 
-### 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository
 ```sh
 git clone https://github.com/multitude/p5BrandLab.git
 cd p5BrandLab
 ```
 
-### 2️⃣ Start a local development server
+## 2️⃣ Start a local development server
 ```sh
 python3 -m http.server 8000
 ```
@@ -57,16 +57,16 @@ The app will be available at `http://localhost:8000`.
 
 [More on running a web server.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
 
-### 3️⃣ Set the generator title in `sketch.js`
+## 3️⃣ Set the generator title in `sketch.js`
 ```js
 const sketchName = '[Brand Name]';
 ```
-### 4️⃣ Create or port your generative sketch in `generator.js`
+## 4️⃣ Create or port your generative sketch in `generator.js`
 ```js
 class Generator {
 	...
 ```
-### 5️⃣ Create the GUI elements in `create-gui.js`
+## 5️⃣ Create the GUI elements in `create-gui.js`
 ```js
 ...
 gui.addController(new ColourBoxes(
@@ -78,7 +78,7 @@ gui.addController(new ColourBoxes(
 ...
 
 ```
-### 6️⃣ Customise the styling in `style.css`
+## 6️⃣ Customise the styling in `style.css`
 ```css
 :root {
 	...
@@ -88,7 +88,7 @@ gui.addController(new ColourBoxes(
 
 ---
 
-## 👨‍💻 Contributing
+# 👨‍💻 Contributing
 We welcome contributions! If you’d like to contribute:
 1. **Fork** the repository.
 2. Create a **Feature branch** (`git checkout -b feature-branch`).
@@ -100,17 +100,17 @@ For larger changes, please open an **Issue** to discuss ideas first.
 
 ---
 
-## ❤️‍🔥 Credits
+# ❤️‍🔥 Credits
 Developed using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm).
 
 ---
 
-## 📄 License
+# 📄 License
 This project is licensed under the **MIT License** – free to use and modify.
 
 ---
 
-## 📢 Stay Updated
+# 📢 Stay Updated
 Follow the development and join the discussion:
 - Instagram: [@multitudecreativeagency](https://www.instagram.com/multitudecreativeagency/)
 - Twitter/X: [@MultitudeStudio](https://twitter.com/MultitudeStudio)
@@ -120,9 +120,3 @@ Follow the development and join the discussion:
 ---
 
 💡 **p5BrandLab: Shaping the future of branded creativity—one line of code at a time.**
-
-
-
-
-## License
-MIT License - Feel free to use and modify this project as needed.
