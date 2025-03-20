@@ -15,7 +15,7 @@ This project is built for **creative coders, developers, and designers** who wan
 # ✨ Features
 ✅ **Generative templates** – Define branded elements that evolve dynamically.  
 ✅ **Flexible customization** – Adjust colors, typography, motion, and shapes in real-time.  
-✅ **Modular & expandable** – Build your own brand elements as code modules.
+✅ **Modular & expandable** – Build your own brand elements as code modules.  
 ✅ **PNG & SVG exporting** - Save your generated artwork in high-quality formats.  
 ✅ **Video rendering** – Uses **ffmpeg.wasm** for high-quality video exports.  
 ✅ **Works in the browser** – No installation needed, fully web-based.  
