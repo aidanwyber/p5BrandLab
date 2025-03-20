@@ -1,6 +1,4 @@
 
-const sketchName = 'Template';
-
 let canvas;
 let svgCanvas;
 let canvWrapper;
@@ -46,7 +44,7 @@ function preload() {
 
   // theShader = loadShader('shader/shader.vert', 'shader/shader.frag');
 
-  // img = loadImage('data/tomfisk.jpg', (img) => img.isLoaded = true);
+  img = loadImage('assets/tomfisk.jpg', (img) => img.isLoaded = true);
 }
 
 // ------------------------------------------------------------ SETUP

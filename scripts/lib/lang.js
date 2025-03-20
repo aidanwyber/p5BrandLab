@@ -6,10 +6,6 @@ const dictionary = {
 		'en': 'button', 
 		'nl': 'knop'
 	},
-	'LANG_CONTACT_MSG': {
-		'en': 'Contact for support & feedback',
-		'nl': 'Contact voor ondersteuning & feedback'
-	},
 	'LANG_PORTRAIT': {
 		'en': 'portrait',
 		'nl': 'staand'
@@ -73,6 +69,14 @@ const dictionary = {
 	'LANG_TITLE_TEXT': {
 		'en': 'title text',
 		'nl': 'titeltekst'
+	},
+	'LANG_SUPPORT': {
+		'en': 'support', 
+		'nl': 'ondersteuning'
+	},
+	'LANG_CONTACT_MSG': {
+		'en': 'Contact for support & feedback',
+		'nl': 'Contact voor ondersteuning & feedback'
 	},
 	'LANG_FORMAT': {
 		'en': 'format',

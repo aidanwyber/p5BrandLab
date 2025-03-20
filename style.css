@@ -160,6 +160,37 @@ body:where(.dark-mode) {
 }
 
 
+#gui #logo {
+	min-height: 3rem;
+    background-image: url("assets/generator-logo.svg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body:where(.dark-mode) #gui #logo {
+	background-image: url("assets/generator-logo.svg");
+}
+
+#gui .p5brandlab-logo {
+    background-image: url(assets/p5brandlab-logo-lightmode.svg);
+    background-position-x: left;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body:where(.dark-mode) #gui .p5brandlab-logo {
+	background-image: url("assets/p5brandlab-logo-darkmode.svg");
+}
+#gui .footer-logo {
+	display: inline-block;
+    min-height: 1.63em;
+    width: 5.7em;
+    position: relative;
+    top: 0.25em;
+}
+
+
 /********************************* TITLE *********************************/
 .gui-title {
 	font-weight: bold;

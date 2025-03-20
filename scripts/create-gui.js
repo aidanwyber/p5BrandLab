@@ -5,8 +5,9 @@ function createGUI() {
   gui.setLeft();
   // gui.setRight();
   
-  let logo = gui.addImage('data/generator-logo.svg', 'Logo');
-  logo.div.child()[0].style.height = '3.5em';
+  // let logo = gui.addImage('assets/generator-logo.svg', 'Logo');
+  let logo = gui.addField(new Field(gui.div, 'logo', 'logo'));
+  // logo.div.child()[0].style.height = '3.5em';
   // logo.div.child()[0].style.margin = '0.5rem 0';
 
 
@@ -174,13 +175,17 @@ function createGUI() {
 
   gui.addDivider();
 
-  let contactDiv = createDiv(lang.process(
+  gui.addTitle(3, 'LANG_SUPPORT', false);
+
+  let contactField = gui.addHTMLToNewField(lang.process(
     `<a href="mailto:aidan.wyber@multitude.nl` + 
-    `?subject=${sketchName}` + 
+    `?subject=${Generator.name}` + 
     `">LANG_CONTACT_MSG</a>`
   ));
-  contactDiv.id('contact');
-  contactDiv.parent(gui.div);
+  contactField.div.id('contact');
+  contactField.div.parent(gui.div);
+
+  gui.addP5BrandLabLogo();
 
 
   // auto click buttons for initialisation

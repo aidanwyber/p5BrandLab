@@ -25,7 +25,7 @@ function initUtil(_duration, _framerate) {
   print("\tduration: " + nf(duration, 0, 1) + " s, nFrames: " + nFrames);
   print("\tframeRate: " + FR + " fps");
 
-  document.title = sketchName + ' Generator';
+  document.title = Generator.name + ' Generator';
 }
 
 function setDuration(_duration) {
@@ -34,7 +34,7 @@ function setDuration(_duration) {
 }
 
 function getOutputFileName() {
-  return sketchName.replaceAll(' ', '-') + '_' + 
+  return Generator.name.replaceAll(' ', '-') + '_' + 
     pw + 'x' + ph + '_' + getTimestamp();
 }
 

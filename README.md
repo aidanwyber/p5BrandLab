@@ -1,4 +1,4 @@
-[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5BrandLab/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
+[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5BrandLab/blob/main/p5BrandLab-header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
 <!-- ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5BrandLab) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5BrandLab)  -->
 
@@ -7,12 +7,14 @@
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
 
 With p5BrandLab, you can:
-- 🎨 Generate brand-consistent visual content programmatically.
-- 🏗️ Experiment with **parametric and algorithmic design**.
+- 🎨 Generate brand-consistent visual content.
+- 🏗️ Experiment with parametric and algorithmic design.
 - 🔄 Automate content generation while maintaining brand identity.
 - 📽️ Export high-quality assets for web, print, or motion graphics.
 
-This project is built for **creative coders, developers, and designers** who want to push the boundaries of branding through code.
+This project is built for **creative coders, developers, and designers** who want to push the boundaries of professional branding through code.
+
+View the p5BrandLab template [on GitHub pages](aidanwyber.github.io/p5BrandLab).
 
 
 # ✨ Features
@@ -51,7 +53,7 @@ php -S localhost:8000
 ```
 The app will be available at `http://localhost:8000`.
 
-[More on running a web server.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
+[More on running a local web server.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
 
 ## 3️⃣ Set the generator title in `sketch.js`
 ```javascript
@@ -82,6 +84,7 @@ gui.addController(new ColourBoxes(
 	...
 ```
 
+
 # 👨‍💻 Contributing
 We welcome contributions! If you’d like to contribute:
 1. **Fork** the repository.
@@ -105,8 +108,8 @@ This project is licensed under the **MIT License** – free to use and modify.
 Follow the development and join the discussion:
 - Instagram: [@multitudecreativeagency](https://www.instagram.com/multitudecreativeagency/)
 - [Creative Coding Amsterdam Meetup](https://www.meetup.com/nl-NL/creative-coding-amsterdam/)
-- GitHub Discussions: [Join the conversation](https://github.com/multitude/p5BrandLab/discussions)
+- GitHub Discussions: [Join the conversation](https://github.com/aidanwyber/p5BrandLab/discussions)
 
 ---
 
-💡 **p5BrandLab: Shaping the future of branded creativity—one line of code at a time.**
+**p5BrandLab. Generative branding, open to all.**

@@ -29,8 +29,8 @@ class GUIForP5 {
 		// this.runCallbackList();
 		for (let cb of this.callbackList) cb();
 
-		let settings = this.getSettingsObj();
-		this.saveSettingsInLocalStorage(settings); //JSON!
+		// let settings = this.getSettingsObj();
+		// this.saveSettingsInLocalStorage(settings); //JSON!
 
 
 		if (GUIForP5.verbose) print('Created GUI.');
@@ -92,6 +92,21 @@ class GUIForP5 {
 	addField(field) {
 		this.fields.push(field);
 		return field;
+	}
+
+	addHTMLToNewField(html, className='') {
+		let field = this.addField(new Field(this.div, '', className));
+		field.div.html(html);
+		return field;
+	}
+
+	addP5BrandLabLogo() {
+		let logo = this.addHTMLToNewField(
+			`<a href="https://github.com/aidanwyber/p5BrandLab" target="_blank">` + 
+				`<div class="p5brandlab-logo footer-logo"></div>` + 
+			`</a> by <a href="https://multitude.nl/" target="_blank">Multitude</a>`
+		);
+		return logo;
 	}
 
 	addDivider() {

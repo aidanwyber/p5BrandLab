@@ -1,5 +1,7 @@
 
 class Generator {
+	static name = 'p5BrandLab';
+
 	palette = [
 		color('#FEFDFB'), // white
 		color('#F9EFE6'), // off-white
