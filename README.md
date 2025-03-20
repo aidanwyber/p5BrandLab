@@ -1,6 +1,6 @@
-[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
+[![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5BrandLab/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator) 
+<!-- ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5BrandLab) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5BrandLab)  -->
 
 
 # 🧪 What is p5BrandLab?
