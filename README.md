@@ -1,58 +1,127 @@
-# p5Generator
- 
-p5Generator is a dynamic and customizable visual generator built using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm). This tool allows users to create and manipulate graphics, images, and animations interactively via a user-friendly GUI.
+# p5BrandLab
 
-## Features
+> **Generative branding, open to all.**  
+> *An open-source project by [Multitude](https://multitude.nl/).*
 
-- Customizable Image Processing: Load and manipulate images with scaling, positioning, and effects.
-- Interactive GUI: A feature-rich interface allowing real-time modifications and parameter adjustments.
-- Resolution presets & custom dimensions
-- SVG & PNG Export: Save your generated artwork in high-quality formats.
-- Video Capture & Export: Utilize ffmpeg.js to create videos from generated frames.
-- Live Shader Rendering: Uses WebGL for enhanced visual effects.
-- Multi-Language Support: Built-in language dictionary for localization.
-- Dark mode support (defaults to system theme)
+## 🚀 What is p5BrandLab?
+**p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
 
-## Installation
+With p5BrandLab, you can:
+- 🎨 Generate brand-consistent visual content programmatically.
+- 🏗️ Experiment with **parametric and algorithmic design**.
+- 🔄 Automate content generation while maintaining brand identity.
+- 📽️ Export high-quality assets for web, print, or motion graphics.
 
-### Prerequisites
-Ensure you have a web server running, as some browser security policies restrict loading local files (like images and fonts). You can use Python’s simple server:
+This project is built for **creative coders, developers, and designers** who want to push the boundaries of branding through code.
 
-`python3 -m http.server`
+---
 
-### Steps
-Clone this repository:
+## ✨ Features
+✅ **Generative templates** – Define branded elements that evolve dynamically.  
+✅ **Flexible customization** – Adjust colors, typography, motion, and shapes in real-time.  
+✅ **Modular & expandable** – Build your own brand elements as code modules.  
+✅ **PNG & SVG exporting** - Save your generated artwork in high-quality formats.
+✅ **Video rendering** – Uses **ffmpeg.wasm** for high-quality video exports.
+✅ **Works in the browser** – No installation needed, fully web-based.
+✅ **Dark mode support** - Defaults to system theme.
+✅ **Multi-language support** - Add your own translations.
 
-`git clone https://github.com/your-repo/generator-project.git`
+---
 
-Navigate to the project folder:
+## 🔥 Why Open-Source?
+At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
 
-`cd generator-project`
+**p5BrandLab is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
 
-Start a local server and open `index.html` in a browser.
+---
 
-## Usage
-1. Open the index.html file in a browser.
-2. Use the GUI panel to modify generator parameters.
-3. Export images as PNG/SVG or capture video output.
+## 📥 Installation & Setup
+To run p5BrandLab locally, follow these steps:
 
-## File Structure
-- `index.html` - Entry point of the project.
-- `style.css` - Styles for the interface.
-- `generator.js` - Core logic for procedural generation.
-- `create-gui.js` - Manages GUI components and interactions.
-- `sketch.js` - p5.js setup and main drawing loop.
-- `ffmpeg.js` - Handles video export functionalities.
-- `util.js`, `util-maths.js` - Utility functions for calculations and transformations.
-- `lang.js` - Handles multi-language support.
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/multitude/p5BrandLab.git
+cd p5BrandLab
+```
 
-## Customization
-- Modify generator.js to define new visual styles or effects.
-- Extend create-gui.js to add new interactive controls.
-- Update style.css for UI customization.
+### 2️⃣ Start a local development server
+```sh
+python3 -m http.server 8000
+```
+or,
+```sh
+php -S localhost:8000
+```
+The app will be available at `http://localhost:8000`.
 
-## Credits
+[More on running a web server.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
+
+### 3️⃣ Set the generator title in `sketch.js`
+```js
+const sketchName = '[Brand Name]';
+```
+### 4️⃣ Create or port your generative sketch in `generator.js`
+```js
+class Generator {
+	...
+```
+### 5️⃣ Create the GUI elements in `create-gui.js`
+```js
+...
+gui.addController(new ColourBoxes(
+	gui, 'colourBoxesBirdCol', 'Bird flock colour', generator.birdPalette, 0,
+	(controller, value) => {
+		generator.birdCol = value;
+	}
+));
+...
+
+```
+### 6️⃣ Customise the styling in `style.css`
+```css
+:root {
+	...
+	--gui-base-col: #7685F7;
+	...
+```
+
+---
+
+## 👨‍💻 Contributing
+We welcome contributions! If you’d like to contribute:
+1. **Fork** the repository.
+2. Create a **Feature branch** (`git checkout -b feature-branch`).
+3. Commit your changes (`git commit -m "Added new GUI component RotatingKnob"`).
+4. Push to the branch (`git push origin feature-branch`).
+5. Create a **Pull request**!
+
+For larger changes, please open an **Issue** to discuss ideas first.
+
+---
+
+## ❤️‍🔥 Credits
 Developed using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm).
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** – free to use and modify.
+
+---
+
+## 📢 Stay Updated
+Follow the development and join the discussion:
+- Instagram: [@multitudecreativeagency](https://www.instagram.com/multitudecreativeagency/)
+- Twitter/X: [@MultitudeStudio](https://twitter.com/MultitudeStudio)
+- [Creative Coding Amsterdam Meetup](https://www.meetup.com/nl-NL/creative-coding-amsterdam/)
+- GitHub Discussions: [Join the conversation](https://github.com/multitude/p5BrandLab/discussions)
+
+---
+
+💡 **p5BrandLab: Shaping the future of branded creativity—one line of code at a time.**
+
+
+
 
 ## License
 MIT License - Feel free to use and modify this project as needed.
