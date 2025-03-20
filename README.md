@@ -17,7 +17,7 @@ This project is built for **creative coders, developers, and designers** who wan
 View the p5BrandLab template [on GitHub pages](aidanwyber.github.io/p5BrandLab).
 
 
-# ✨ Features
+# ⭐ Features
 - **Generative templates**: Define branded elements that evolve dynamically.  
 - **Flexible customization**: Adjust colors, typography, motion, and shapes in real-time.  
 - **Modular & expandable**: Build your own brand elements as code modules.  
@@ -39,29 +39,29 @@ To run p5BrandLab locally, follow these steps:
 
 ## 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/multitude/p5BrandLab.git
+git clone https://github.com/aidanwyber/p5BrandLab.git
 cd p5BrandLab
 ```
 
 ## 2️⃣ Start a local development server
+If you have Python installed:
 ```sh
 python3 -m http.server 8000
 ```
-or,
+or if you PHP installed:
 ```sh
 php -S localhost:8000
 ```
 The app will be available at `http://localhost:8000`.
 
-[More on running a local web server.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
+[More on running local web servers.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
 
-## 3️⃣ Set the generator title in `sketch.js`
-```javascript
-const sketchName = '[Brand Name]';
-```
+## 3️⃣  Open up the folder in your IDE of choice
+
 ## 4️⃣ Create or port your generative sketch in `generator.js`
 ```javascript
 class Generator {
+	static name = 'Brand Name';
 	...
 ```
 ## 5️⃣ Create the GUI elements in `create-gui.js`
@@ -97,7 +97,7 @@ For larger changes, please open an **Issue** to discuss ideas first.
 
 
 # ❤️‍🔥 Credits
-Developed using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm).
+Developed initially using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm).
 
 
 # 📄 License
@@ -107,8 +107,8 @@ This project is licensed under the **MIT License** – free to use and modify.
 # 📢 Stay Updated
 Follow the development and join the discussion:
 - Instagram: [@multitudecreativeagency](https://www.instagram.com/multitudecreativeagency/)
-- [Creative Coding Amsterdam Meetup](https://www.meetup.com/nl-NL/creative-coding-amsterdam/)
-- GitHub Discussions: [Join the conversation](https://github.com/aidanwyber/p5BrandLab/discussions)
+- GitHub Discussions: [join the conversation](https://github.com/aidanwyber/p5BrandLab/discussions)
+- Creative Coding Amsterdam: [join a Meetup](https://www.meetup.com/nl-NL/creative-coding-amsterdam/) and ask Aidan about this project in person :)
 
 ---
 

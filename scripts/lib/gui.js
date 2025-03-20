@@ -102,9 +102,10 @@ class GUIForP5 {
 
 	addP5BrandLabLogo() {
 		let logo = this.addHTMLToNewField(
-			`<a href="https://github.com/aidanwyber/p5BrandLab" target="_blank">` + 
+			`powered by <a href="https://github.com/aidanwyber/p5BrandLab" target="_blank">` + 
 				`<div class="p5brandlab-logo footer-logo"></div>` + 
-			`</a> by <a href="https://multitude.nl/" target="_blank">Multitude</a>`
+			`</a>`,
+			'powered-by-logo'
 		);
 		return logo;
 	}

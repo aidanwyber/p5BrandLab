@@ -187,7 +187,18 @@ body:where(.dark-mode) #gui .p5brandlab-logo {
     min-height: 1.63em;
     width: 5.7em;
     position: relative;
-    top: 0.25em;
+    top: 0.24em;
+    /*display: inline-block;
+	min-height: 2.8em;
+    width: 8.7em;
+    position: relative;
+    bottom: 0.25em;*/
+}
+
+.powered-by-logo {
+	position: fixed;
+	bottom: 1.3rem;
+	right: 2rem;
 }
 
 
