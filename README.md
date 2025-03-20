@@ -1,4 +1,4 @@
-![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/pandakaas/p5Generator/blob/main/header.svg?raw=true)
+![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)
 
 *An open-source project by [Multitude](https://multitude.nl/).*
 
