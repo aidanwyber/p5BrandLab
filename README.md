@@ -1,10 +1,10 @@
 [![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/ "Multitude")
 
-![visitors](https://visitor-badge.glitch.me/badge?page_id=aidanwyber.p5Generator&left_color=#bffb50&right_color=#7685f7) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator&left_color=#bffb50&right_color=#7685f7) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator&left_color=#bffb50&right_color=#7685f7)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator)
 
 
 # 🚀 What is p5BrandLab?
-**p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. ![p5.js](https://img.shields.io/badge/p5%20js-ED225D?style=for-the-badge&logo=p5dotjs&logoColor=white)
+**p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
 
 With p5BrandLab, you can:
 - 🎨 Generate brand-consistent visual content programmatically.
