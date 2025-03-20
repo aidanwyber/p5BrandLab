@@ -9,6 +9,8 @@ With **p5BrandLab**, you can generate **professional brand-consistent visual con
 
 See what the p5BrandLab generator looks like [on GitHub pages](https://aidanwyber.github.io/p5BrandLab/).
 
+p5BrandLab was initiated by creative agency **[Multitude](https://multitude.nl/)**.
+
 
 # ⭐ Features
 - **Generative templates**: define branded elements that evolve dynamically.
