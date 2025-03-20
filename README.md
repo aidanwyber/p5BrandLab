@@ -1,7 +1,5 @@
 [![p5BrandLab. Generative branding, open to all. Initiated by Multitude.](https://github.com/aidanwyber/p5Generator/blob/main/header.svg?raw=true)](https://multitude.nl/)
 
----
-
 # 🚀 What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**. 
 
@@ -13,7 +11,6 @@ With p5BrandLab, you can:
 
 This project is built for **creative coders, developers, and designers** who want to push the boundaries of branding through code.
 
----
 
 # ✨ Features
 ✅ **Generative templates** – Define branded elements that evolve dynamically.  
@@ -25,14 +22,12 @@ This project is built for **creative coders, developers, and designers** who wan
 ✅ **Dark mode support** - Defaults to system theme.
 ✅ **Multi-language support** - Add your own translations.
 
----
 
 # 📖 Why Open-Source?
 At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
 
 **p5BrandLab is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
 
----
 
 # 📥 Installation & Setup
 To run p5BrandLab locally, follow these steps:
@@ -84,8 +79,6 @@ gui.addController(new ColourBoxes(
 	...
 ```
 
----
-
 # 👨‍💻 Contributing
 We welcome contributions! If you’d like to contribute:
 1. **Fork** the repository.
@@ -96,17 +89,14 @@ We welcome contributions! If you’d like to contribute:
 
 For larger changes, please open an **Issue** to discuss ideas first.
 
----
 
 # ❤️‍🔥 Credits
 Developed using [p5.js](https://p5js.org/), [toxiclibs.js](https://github.com/hapticdata/toxiclibsjs), and [ffmpeg.js](https://github.com/ffmpegwasm/ffmpeg.wasm).
 
----
 
 # 📄 License
 This project is licensed under the **MIT License** – free to use and modify.
 
----
 
 # 📢 Stay Updated
 Follow the development and join the discussion:
