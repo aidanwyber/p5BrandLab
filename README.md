@@ -9,7 +9,7 @@ With **p5BrandLab**, you can generate **professional brand-consistent visual con
 
 See what the p5BrandLab generator looks like [on GitHub pages](https://aidanwyber.github.io/p5BrandLab/).
 
-p5BrandLab was initiated by creative agency **[Multitude](https://multitude.nl/)**.
+p5BrandLab was initiated by creative agency [Multitude](https://multitude.nl/).
 
 
 # ⭐ Features
@@ -24,7 +24,7 @@ p5BrandLab was initiated by creative agency **[Multitude](https://multitude.nl/)
 
 
 # 📖 Why Open-Source?
-At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
+At [Multitude](https://multitude.nl/), we believe branding should be **fluid, flexible, and future-proof**. Instead of static logos and locked-in design systems, we embrace **generative branding**—where design systems evolve and adapt in real-time.
 
 **p5BrandLab is our invitation to the creative coding community:** hack, extend, and redefine what branding can be. We encourage experimentation and collaboration—let’s build the future of visual identities, together.
 
