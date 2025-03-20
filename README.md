@@ -4,28 +4,24 @@
 
 
 # 🧪 What is p5BrandLab?
-**p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
-
-With p5BrandLab, you can:
-- 🎨 Generate brand-consistent visual content.
-- 🏗️ Experiment with parametric and algorithmic design.
-- 🔄 Automate content generation while maintaining brand identity.
-- 📽️ Export high-quality assets for web, print, or motion graphics.
+**p5BrandLab** is an **open-source generative branding tool** that allows **designers, developers, and brands** to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
 
 This project is built for **creative coders, developers, and designers** who want to push the boundaries of professional branding through code.
 
-View the p5BrandLab template [on GitHub pages](aidanwyber.github.io/p5BrandLab).
+With **p5BrandLab**, you can generate **professional brand-consistent visual content** by providing **high-quality assets** for web, print, or motion graphics.
+
+See what the p5BrandLab generator looks like [on GitHub pages](https://aidanwyber.github.io/p5BrandLab/).
 
 
 # ⭐ Features
-- **Generative templates**: Define branded elements that evolve dynamically.  
-- **Flexible customization**: Adjust colors, typography, motion, and shapes in real-time.  
-- **Modular & expandable**: Build your own brand elements as code modules.  
-- **PNG & SVG exporting**: Save your generated artwork in high-quality formats.  
-- **Video rendering**: Uses `ffmpeg.wasm` for high-quality video exports.  
-- **Works in the browser**: No installation needed, fully web-based.  
-- **Dark mode support**: Defaults to system theme.  
-- **Multi-language support**: Add your own translations.
+- **Generative templates**: define branded elements that evolve dynamically.
+- **Flexible customization**: adjust colors, typography, motion, and shapes in real-time.
+- **Modular & expandable**: the Vanilla JavaScript framework affords adding custom classes and libraries as you go.
+- **PNG & SVG exporting**: save your generated artwork in high-quality formats.
+- **Video rendering**: uses `ffmpeg.wasm` for high-quality video exports.
+- **Works in the browser**: no installation needed, fully web-based.
+- **Dark mode support**: defaults to system theme.
+- **Multi-language support**: add your own translations.
 
 
 # 📖 Why Open-Source?
@@ -37,13 +33,13 @@ At **[Multitude](https://multitude.nl/)**, we believe branding should be **fluid
 # 📥 Installation & Setup
 To run p5BrandLab locally, follow these steps:
 
-## 1️⃣ Clone the Repository
+## 1️⃣  Clone the Repository
 ```sh
 git clone https://github.com/aidanwyber/p5BrandLab.git
 cd p5BrandLab
 ```
 
-## 2️⃣ Start a local development server
+## 2️⃣  Start a local development server
 If you have Python installed:
 ```sh
 python3 -m http.server 8000
@@ -56,15 +52,13 @@ The app will be available at `http://localhost:8000`.
 
 [More on running local web servers.](https://gist.github.com/jgravois/5e73b56fa7756fd00b89)
 
-## 3️⃣  Open up the folder in your IDE of choice
-
-## 4️⃣ Create or port your generative sketch in `generator.js`
+## 3️⃣  Create or port your generative sketch in `generator.js`
 ```javascript
 class Generator {
 	static name = 'Brand Name';
 	...
 ```
-## 5️⃣ Create the GUI elements in `create-gui.js`
+## 4️⃣  Create the GUI elements in `create-gui.js`
 ```javascript
 ...
 gui.addController(new ColourBoxes(
@@ -76,7 +70,7 @@ gui.addController(new ColourBoxes(
 ...
 
 ```
-## 6️⃣ Customise the styling in `style.css`
+## 5️⃣  Customise the styling in `style.css`
 ```css
 :root {
 	...
