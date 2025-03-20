@@ -3,7 +3,7 @@
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/aidanwyber/p5Generator) ![GitHub contributors](https://img.shields.io/github/contributors/aidanwyber/p5Generator) 
 
 
-# 🧪 What is p5BrandLab BLABLA?
+# 🧪 What is p5BrandLab?
 **p5BrandLab** is an **open-source generative branding tool** that allows designers, developers, and brands to create **dynamic visual identities** using **p5.js, toxiclibs.js, and ffmpeg.wasm**.
 
 With p5BrandLab, you can:
